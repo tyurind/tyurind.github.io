@@ -1,23 +1,42 @@
 ---
-layout: default
+layout: empty
 ---
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tyurin Dmitriy</title>
+<meta charset="UTF-8">
 
-<div class="home">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-  <h1 class="page-heading">FOBIA</h1>
+<style t>
+    body {
+        background: gray;
+    }
+    .wrapper {
+        text-align: center;
+        font-size: 32px;
+    }
+</style>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+</head>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<body>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
+<div class="wrapper">
+
+            <div class="social">
+                <a href="https://vk.com/fobia">
+                    <i class="fab fa-vk" style="
+                    color: #2a5885;
+                "></i>
+                </a>
+            </div>
 </div>
+
+
+
+</body>
+</html>
+
